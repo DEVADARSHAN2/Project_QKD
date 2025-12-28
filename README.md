@@ -78,7 +78,8 @@ if __name__ == "__main__":
     key = bb84()
     print("Quantum Key Generated:", key)
 
-```# Hybrid Key Generation
+```
+# Hybrid Key Generation
 ```
 import os
 import hashlib
@@ -179,12 +180,6 @@ Secure Message using Hybrid Cryptography
 Integrity Verified
 Secure Communication Successful
 ```
-
-
-
-
-
-
 
 
 ## System Architecture
