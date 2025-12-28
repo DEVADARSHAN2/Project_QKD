@@ -198,11 +198,13 @@ The console log below demonstrates the BB84 protocol simulation. It shows the ge
 
 #### Output 2 - Encryption & Secure Transmission
 This output details the classical encryption phase. The system takes the plaintext (e.g., "Confidential Medical Record"), derives a hybrid session key, and generates the Ciphertext and Authentication Tag using AES-GCM before transmission.
+<img width="650" height="300" alt="Code_Generated_Image (1)" src="https://github.com/user-attachments/assets/9ecccced-dd6e-49f5-a8bb-811c2c3fd8b3" />
 
 
 
 #### Output 3 - Decryption & Integrity Verification
 At the receiver's end, the log confirms the receipt of the payload. It explicitly states **"Integrity Verified"** (proving no tampering occurred) before decrypting the ciphertext back to the original plaintext.
+<img width="650" height="280" alt="Code_Generated_Image (2)" src="https://github.com/user-attachments/assets/88a7d9e9-1613-419e-a9bb-1addd1167a01" />
 
 
 
@@ -213,8 +215,27 @@ This project successfully demonstrates that quantum principles can be simulated 
 - **Impact:** Establishes a viable blueprint for "Quantum-Safe" communications, allowing critical infrastructure to prepare for the post-quantum era without requiring immediate, expensive hardware upgrades.
 
 ## Articles published / References
-1. Raj, A., and Balachandran, V., “A Hybrid Encryption Framework Combining Classical, Post-Quantum, and QKD Methods,” *arXiv preprint arXiv:2509.10551*, 2025.
-2. Sanz, A., et al., “Extending Quantum-Safe Communications to Real-World Networks: An Adaptive Security Framework,” *arXiv preprint arXiv:2511.22416*, 2025.
-3. Mozo, H. E., “Quantum-Classical Hybrid Encryption Framework Based on Simulated BB84 and AES-256,” *arXiv preprint arXiv:2511.02836*, 2025.
-4. Shafique, A., et al., “A Hybrid Encryption Framework Leveraging Quantum and Classical Cryptography,” *Scientific Reports*, vol.14, 2024.
-5. Angamuthu, G., and Marikkannan, M., “Hybrid Quantum-Resistant Key Exchange Protocol for Secure Network Communication,” *IJCSE*, 2025.
+1. Raj, A., and Balachandran, V., “A Hybrid Encryption Framework Combining Classical, Post-Quantum, and QKD Methods,” arXiv preprint arXiv:2509.10551, 2025.
+
+
+2. Sanz, A., Salegi, E., Atutxa, A., Franco, D., Astorga, J., and Jacob, E., “Extending Quantum-Safe Communications to Real-World Networks: An Adaptive Security Framework,” arXiv preprint arXiv:2511.22416, 2025.
+
+
+3. Mozo, H. E., “Quantum-Classical Hybrid Encryption Framework Based on Simulated BB84 and AES-256: Design and Experimental Evaluation,” arXiv preprint arXiv:2511.02836, 2025.
+
+4. Shafique, A., Naqvi, S. A. A., and Raza, A., “A Hybrid Encryption Framework Leveraging Quantum and Classical Cryptography for Secure Transmission of Medical Images in IoT-Based Telemedicine Networks,” Scientific Reports, vol. 14, art. no. 31054, 2024.
+
+
+5. Angamuthu, G., and Marikkannan, M., “Hybrid Quantum-Resistant Key Exchange Protocol for Secure Network Communication,” International Journal of Computer Science Engineering (IJCSE), 2025.
+
+
+6. Anastasova, M., Kampanakis, P., and Massimo, J., “PQ-HPKE: Post-Quantum Hybrid Public Key Encryption,” IACR ePrint Report 2022/414, 2022.
+
+7. Ahmed, Y., Elmrabit, N., and Yousefi, M., “Enhancing the Security of Classical Communication with Post-Quantum Authenticated-Encryption Schemes for Quantum Key Distribution,” Computers, vol. 13, no. 7, p. 163, 2024.
+
+
+8. Rizvi, E. R., and Khurram, S., “Hybrid Post-Quantum Cryptographic Approaches for Secure Communication,” Annual Methodological Archive Research Review, 2025.
+
+9. Shukur, M. G., and Dileep, M. R., “Hybrid Quantum-Classical Learning for Accelerating Cryptographic Key Distribution in Post-Quantum Networks,” Synthesis: A Multidisciplinary Research Journal, vol. 1, no. 4, pp. 10–21, 2023.
+
+10. “Exploring Post-Quantum Cryptography: Review and Directions for the Transition Process,” MDPI Technologies, vol. 12, no. 12, p. 241, 2025.
